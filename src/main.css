@@ -32,6 +32,10 @@ img {
   width: 100%;
 }
 
+.top-container {
+  margin-bottom: 2px !important;
+}
+
 .box {
   display: flex !important;
   justify-content: space-between;

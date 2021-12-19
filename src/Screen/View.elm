@@ -50,21 +50,21 @@ view model =
     main_ []
         [ stylesheet
         , fontAwesomeCDN
+        , box [ class "container top-container" ]
+            [ content Standard
+                [ uppercase, textLeft ]
+                [ title H6 [ textColor BT.Black ] [ text "Overview" ]
+                , subtitle H6
+                    [ textLeft, capitalize, textColor Grey ]
+                    [ text "Selected: "
+                    , displaySelectedOptions model.dropDown1.values
+                    ]
+                ]
+            , Html.map DD1 <| DD.view model.dropDown1
+            ]
         , section NotSpaced
             [ class "container" ]
-            [ box []
-                [ content Standard
-                    [ uppercase, textLeft ]
-                    [ title H6 [ textColor BT.Black ] [ text "Overview" ]
-                    , subtitle H6
-                        [ textLeft, capitalize, textColor Grey ]
-                        [ text "Selected: "
-                        , displaySelectedOptions model.dropDown1.values
-                        ]
-                    ]
-                , Html.map DD1 <| DD.view model.dropDown1
-                ]
-            , columns columnsModifiers
+            [ columns columnsModifiers
                 []
                 [ column (myColumnModifiers Auto (Just Auto))
                     []
