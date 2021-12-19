@@ -13,3 +13,7 @@ yarn global add elm
 
 `elm-app start`
 
+
+
+https://user-images.githubusercontent.com/17427702/146679127-a390c7fd-07e9-4539-8aac-4e9c89c1b20c.mov
+
