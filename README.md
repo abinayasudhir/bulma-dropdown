@@ -15,5 +15,7 @@ yarn global add elm
 
 
 
-https://user-images.githubusercontent.com/17427702/146679127-a390c7fd-07e9-4539-8aac-4e9c89c1b20c.mov
+
+https://user-images.githubusercontent.com/17427702/146679772-2ac6b100-aa54-42f4-b381-705c03867583.mov
+
 
